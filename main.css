@@ -25,7 +25,7 @@ body{
   background-color: white;
 }
 
-#header-img{
+#header img{
   height: auto;
   max-width: 300px;
   text-align: center;
@@ -57,15 +57,23 @@ input[type="email"] {
   width: 275px;
   padding: .32rem;
 }
-#features{
-  width:80vw;
-  margin: auto;
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
- #features p{
-   margin-top:.1rem;
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
 }
-#features h2{
-  margin:0; 
+.feature img{
+    margin-right: 1.2rem;
+}
+.feature h2, p{
+  margin: .8rem;
 }
 iframe{
   display: block;
@@ -102,6 +110,8 @@ iframe{
   font-weight: 800;
 }
 footer{
+  background-color: #c3c3c3;
+  padding:  .5rem;
   margin-bottom: 5px;
   display: flex;
   justify-content: flex-end;
@@ -109,6 +119,19 @@ footer{
 footer>span{
   margin-top: 5px;
   margin-left: 5px;
+}
+.footer a{
+    padding: .5rem;
+}
+@media(max-width:640px) {
+  body{
+    font-size:12px;
+  }
+    .products
+   {
+    display: flex;
+    flex-direction: column;
+   }
 }
 
 
