@@ -1,8 +1,10 @@
 # FCC-landing-page
-**A implementation of a survey form using HTML/CSS**
+**A implementation of a product landing page using HTML/CSS**
 
 ## Description
 -  landing-page  using HTML/CSS
+-  product order page
+
 
 ## Demo
  [demo](https://rawcdn.githack.com/Amir9eng/FCC-landing-page/3a962cadef64ae1e9b53093aea7b8b249f0c05f9/index.html)
@@ -12,7 +14,7 @@
 
 ## Features
 -  A landing page for original trombones
--  Application form
+-  email login form
  
  ## Tech/framework used
 - HTML
