@@ -13,7 +13,7 @@
 - Your browser version must be up to date for a better experience
 
 ## Features
--  A landing page for original trombones
+-  A landing page for  trombones
 -  email login form
  
  ## Tech/framework used
